@@ -1,18 +1,9 @@
 const moviesData = [
   {
-    title: 'The Wild Robot',
-    description:
-      'After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the islands animal`s and cares for an orphaned baby goose.',
-    posterURL:
-      'https://www.imdb.com/title/tt29623480/mediaviewer/rm4175327489/?ref_=tt_ov_i',
-    rating: 8.4,
-  },
-  {
     title: 'Deadpool & Wolverine',
     description:
       'Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.',
-    posterURL:
-      'https://www.imdb.com/title/tt6263850/mediaviewer/rm79129601/?ref_=tt_ov_i',
+    posterURL: './images/deadpool-wolverine.jpg',
     rating: 7.8,
   },
   {
@@ -20,7 +11,7 @@ const moviesData = [
     description:
       'A 30-minute anime adaptation of One Piece novel Straw Hat Stories, released to commemorate the One Piece anime`s 25th anniversary.',
     posterURL:
-      'https://www.imdb.com/title/tt33998607/mediaviewer/rm872179201/?ref_=tt_ov_i',
+      'https://m.media-amazon.com/images/M/MV5BYTYzNmY1NzAtYzRhNC00YTVjLWFiMjEtYWMzNTljNzIzMGZjXkEyXkFqcGdeQXVyMTAwOTA3MzQ3._V1_FMjpg_UX1000_.jpg',
     rating: 9.8,
   },
   {
@@ -28,16 +19,8 @@ const moviesData = [
     description:
       'Following the events of The Batman (2022), Oz Cobb, a.k.a. the Penguin, makes a play to seize the reins of the crime world in Gotham.',
     posterURL:
-      'https://www.imdb.com/title/tt15435876/mediaviewer/rm996501761/?ref_=tt_ov_i',
+      'https://m.media-amazon.com/images/M/MV5BNWEyZDQ5MmItMTEzNi00MmJkLWI4MjEtZGVmOWE0MTRjNzg4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg',
     rating: 8.8,
-  },
-  {
-    title: 'Joker: Folie à Deux',
-    description:
-      'Struggling with his dual identity, failed comedian Arthur Fleck meets the love of his life, Harley Quinn, while incarcerated at Arkham State Hospital.',
-    posterURL:
-      'https://www.imdb.com/title/tt22022452/mediaviewer/rm1568556801/?ref_=tt_ov_i',
-    rating: 5.3,
   },
   {
     title: 'Inside Out 2',
