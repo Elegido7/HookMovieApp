@@ -9,7 +9,7 @@ Instructions
         Able to add a new movie.
         Filter the movies with title/rating.
 
-
+Note: Under Public folder I have included a screenshot showing adding movies works.
 
 # Getting Started with Create React App
 

@@ -48,13 +48,15 @@ const AddMovieForm = ({ addMovie }) => {
       <input
         type="number"
         name="rating"
-        placeholder="Rating (0-5)"
+        placeholder="Rating (0-10)"
         value={movie.rating}
         min="0"
-        max="5"
+        max="10"
+        step="0.1"
         onChange={handleChange}
         required
       />
+
       <button type="submit">Add Movie</button>
     </form>
   );

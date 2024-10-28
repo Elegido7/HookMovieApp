@@ -16,10 +16,20 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Movie Collection</h1>
-      <Filter filter={filter} setFilter={setFilter} />
-      <MovieList movies={movies} filter={filter} />
-      <AddMovieForm addMovie={addMovie} />
+      <p className="addFilter">
+        <span id="filter">
+          <h2>Filter the movie</h2>
+          <Filter filter={filter} setFilter={setFilter} />
+        </span>
+        <span id="add">
+          <h2>Add a movie of your choice</h2>
+          <AddMovieForm addMovie={addMovie} />
+        </span>
+      </p>
+      <div>
+        <h1>Movie Collection</h1>
+        <MovieList movies={movies} filter={filter} />
+      </div>
     </div>
   );
 };
